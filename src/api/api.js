@@ -13,19 +13,19 @@ export const userLogin = (params) => {
 // 获取所有文章
 export const getAllArticle = (params) => {
     const url = '/storage/api/get/all/article';
-    return http.fetchPost(url, params);
+    return http.fetchGet(url, params);
 };
 
 // 获取标签
 export const getAllArticleTags = (params) => {
     const url = '/storage/api/get/article/tags';
-    return http.fetchPost(url, params);
+    return http.fetchGet(url, params);
 };
 
 // 文章详情
 export const getArticleDetails = (params) => {
     const url = '/storage/api/get/article/details';
-    return http.fetchPost(url, params);
+    return http.fetchGet(url, params);
 };
 
 // 文件上传
