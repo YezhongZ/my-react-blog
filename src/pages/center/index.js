@@ -15,7 +15,7 @@ import {
 
 class Index extends PureComponent {
     state = {
-        tags: ['很有想法的', '专注设计', '辣~', '大长腿', '川妹子', '海纳百川'],
+        tags: ['测试标签1', '测试标签2', '测试标签3', '测试标签4', '测试标签5', '海纳百川'],
         inputVisible: false,
         inputValue: '',
         notice: [
@@ -56,7 +56,7 @@ class Index extends PureComponent {
                 key: 'articles',
                 tab: (
                     <span>
-            文章 <span style={{fontSize: 14}}>(8)</span>
+            文章 <span style={{fontSize: 14}}>(111)</span>
           </span>
                 ),
             },
@@ -64,7 +64,7 @@ class Index extends PureComponent {
                 key: 'applications',
                 tab: (
                     <span>
-            应用 <span style={{fontSize: 14}}>(8)</span>
+            应用 <span style={{fontSize: 14}}>(666)</span>
           </span>
                 ),
             },
@@ -72,7 +72,7 @@ class Index extends PureComponent {
                 key: 'projects',
                 tab: (
                     <span>
-            项目 <span style={{fontSize: 14}}>(8)</span>
+            项目 <span style={{fontSize: 14}}>(888)</span>
           </span>
                 ),
             },
@@ -129,13 +129,13 @@ class Index extends PureComponent {
                     <Card>
                         <CenterIcon>
                             <Avatar alt="" src={anIcon} size={100}/>
-                            <div className='name'>Serati Ma</div>
+                            <div className='name'>张业中</div>
                             <div>海纳百川，有容乃大</div>
                         </CenterIcon>
                         <CenterDetail>
-                            <div><i className="iconfont">&#xe604;</i>交互专家</div>
-                            <div><i className="iconfont">&#xe668;</i>蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED</div>
-                            <div><i className="iconfont">&#xe61b;</i>浙江省杭州市</div>
+                            <div><i className="iconfont">&#xe604;</i>初级工程师</div>
+                            <div><i className="iconfont">&#xe668;</i>Endowus</div>
+                            <div><i className="iconfont">&#xe61b;</i>新加坡</div>
                         </CenterDetail>
                         <Divider dashed/>
                         <CenterTeam>
